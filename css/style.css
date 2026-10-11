@@ -21,9 +21,19 @@ body {
     font-weight: bold;
 } 
 
-/* p {
-    font-size: .7vw;
-} */
+.my_info {
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+.my_info p {
+    max-width: 100%;
+}
+
+.my_info a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
 
 img {
     width: 134px;
